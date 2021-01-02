@@ -1,0 +1,32 @@
+{
+  "git": {
+    "creator": "teexiii",
+    "repoURL": "https://bitbucket.org/digitopvn/budweiser-tet-2021/src"
+  },
+  "isStaticSite": false,
+  "shouldShowHelp": false,
+  "shouldShowVersion": false,
+  "shouldUpdateCli": false,
+  "skipCreatingDirectory": false,
+  "projectSlug": "budweiser-tet-2021",
+  "projectName": "Budweiser tet 2021",
+  "username": "teexiii",
+  "version": "v1.3.5",
+  "framework": "unknown",
+  "diginext-cli": "0.7.0",
+  "domain": {
+    "staging": [],
+    "prod": []
+  },
+  "cdn-host": {
+    "dev": "https://storage.googleapis.com/digitop-cdn-sg/budweiser-tet-2021/dev",
+    "dev-nocache": "https://storage.googleapis.com/digitop-cdn-sg/budweiser-tet-2021/dev",
+    "prod": "https://storage.googleapis.com/digitop-cdn-sg/budweiser-tet-2021/prod",
+    "prod-nocache": "https://storage.googleapis.com/digitop-cdn-sg/budweiser-tet-2021/prod"
+  },
+  "cdn": {
+    "dev": false,
+    "staging": true,
+    "prod": true
+  }
+}

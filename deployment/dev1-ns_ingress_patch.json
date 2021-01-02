@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/spec/rules/0/http/paths/-",
+    "value": { "path": "/budweiser-tet-2021", "backend": { "serviceName": "budweiser-tet-2021-staging-svc", "servicePort": 80 } }
+  }
+]

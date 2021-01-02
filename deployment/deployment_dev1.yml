@@ -1,0 +1,64 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev1-ns
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: budweiser-tet-2021-staging-svc
+  namespace: dev1-ns
+  labels:
+    app: budweiser-tet-2021-staging
+    project: budweiser-tet-2021-staging
+spec:
+  ports:
+    - port: 80
+      targetPort: 3000
+  selector:
+    app: budweiser-tet-2021-staging
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: budweiser-tet-2021-staging
+  namespace: dev1-ns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: budweiser-tet-2021-staging
+  template:
+    metadata:
+      labels:
+        app: budweiser-tet-2021-staging
+        project: budweiser-tet-2021-staging
+    spec:
+      containers:
+        - name: budweiser-tet-2021-staging
+          image: >-
+            asia.gcr.io/top-group-k8s/budweiser-tet-2021-dev-tam:2020-31-12-16-10-51
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+          env:
+            - name: NEXT_PUBLIC_ENV
+              value: staging
+            - name: NEXT_PUBLIC_CDN_BASE_PATH
+              value: >-
+                https://storage.googleapis.com/digitop-cdn-sg/budweiser-tet-2021/dev
+            - name: NEXT_PUBLIC_BASE_PATH
+              value: budweiser-tet-2021
+            - name: NEXT_PUBLIC_BASE_URL
+              value: 'https://dev1.digitop.vn/budweiser-tet-2021'
+            - name: NEXT_PUBLIC_API_BASE_PATH
+              value: 'https://dev1.digitop.vn/budweiser-tet-2021-api'
+            - name: IRON_SESSION_SECRET
+              value: NcvPDa2tlje1i6nvzZt6PmCHU5qcTcx4
+
+---

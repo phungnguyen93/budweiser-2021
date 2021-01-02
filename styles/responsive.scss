@@ -1,0 +1,1222 @@
+@media screen and (min-width: 1165px) {
+  .ant-select {
+    .ant-select-selector {
+      padding-top: 1% !important;
+    }
+  }
+}
+
+@media screen and (min-width: 481px) {
+  //ANTD SELECT
+  .ant-select {
+    font-size: 18px;
+    line-height: 23px;
+    .ant-select-selector {
+      border: 3px solid #fff !important;
+      .ant-select-selection-placeholder {
+        padding: 1% 0%;
+      }
+    }
+  }
+
+  .wrapNoCam {
+    height: 70%;
+  }
+  .blurText {
+    width: 50%;
+    height: 100%;
+    max-height: 400px;
+  }
+
+  //ANTD DATAPICKER
+  .ant-picker-input {
+    color: #fff;
+    height: 100%;
+    input {
+      color: #fff;
+      text-align: center;
+      font-size: 35px;
+      &::placeholder {
+        color: #fff;
+        text-align: center;
+      }
+    }
+    .ant-picker-suffix {
+      display: none;
+    }
+  }
+
+  .wrapSelect {
+    .submitBtn {
+      width: 50%;
+    }
+  }
+
+  .blurLayout {
+    padding-top: 19%;
+  }
+}
+
+@media screen and (max-width: 1792px) and (min-width: 480px) {
+  .header {
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 30% 100%;
+        }
+      }
+    }
+  }
+
+  #infoPage {
+    .titleDesktop {
+      font-size: 52px;
+    }
+  }
+
+  #wrapIntro {
+    .smallTitle {
+      padding: 0 14%;
+    }
+    .submitBtn {
+      width: 45%;
+    }
+  }
+
+  #wrapSelect {
+    .submitBtn {
+      width: 60%;
+    }
+  }
+
+  #modal {
+    padding-top: 10%;
+    .submitBtn {
+      width: 100%;
+    }
+  }
+
+  #qrCode {
+    .thanks {
+      font-size: 21px;
+    }
+    .btnGroup {
+      .btnBlock:last-child {
+        .submitBtn {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1694px) and (min-width: 480px) {
+  .header {
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 32% 100%;
+        }
+      }
+    }
+  }
+
+  .homePage {
+    padding-top: 22%;
+  }
+  #infoPage {
+    .titleDesktop {
+      font-size: 50px;
+    }
+  }
+  .birthdayBlock {
+    font-size: 30px;
+  }
+
+  #wrapIntro {
+    .smallTitle {
+      padding: 0 12%;
+    }
+  }
+  .blurLayout {
+    padding-top: 23%;
+  }
+  #wrapNoCam {
+    p:first-child {
+      font-size: 45px;
+    }
+  }
+  #modal {
+    .img {
+      width: 70%;
+    }
+  }
+  #qrCode {
+    .thanks {
+      font-size: 20px;
+    }
+    .qr {
+      width: 45%;
+    }
+  }
+}
+
+@media screen and (max-width: 1631px) and (min-width: 480px) {
+  .header {
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 34% 100%;
+        }
+      }
+    }
+  }
+
+  .homePage {
+    padding-top: 26%;
+  }
+  #infoPage {
+    .titleDesktop {
+      font-size: 45px;
+    }
+    .extra {
+      font-size: 30px;
+    }
+  }
+  .birthdayBlock {
+    font-size: 25px;
+  }
+
+  #wrapIntro {
+    .smallTitle {
+      padding: 0 10%;
+    }
+    .submitBtn {
+      width: 50%;
+    }
+  }
+
+  #qrCode {
+    .thanks {
+      font-size: 19px;
+    }
+    .btnGroup {
+      .btnBlock {
+        .submitBtn {
+          .btnText {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1475px) and (min-width: 480px) {
+  .header {
+    .logoMenu {
+      .menu {
+        ul {
+          font-size: 20px;
+        }
+      }
+    }
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 36% 100%;
+        }
+      }
+    }
+  }
+
+  .homePage {
+    padding: 0 29%;
+    padding-top: 28%;
+  }
+
+  #infoPage {
+    .btnBlock {
+      max-height: 60px;
+      .submitBtn {
+        .btnText {
+          font-size: 25px;
+          padding: 6% 0;
+        }
+      }
+    }
+  }
+
+  #wrapIntro {
+    .smallTitle {
+      padding: 0 6%;
+    }
+    .largeTitle {
+      height: 55%;
+    }
+    .btnBlock {
+      max-height: 60px;
+      .submitBtn {
+        width: 55%;
+        .btnText {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  #wrapSelect {
+    .btnBlock {
+      max-height: 60px;
+      .submitBtn {
+        .btnText {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  #wrapNoCam {
+    p:first-child {
+      font-size: 40px;
+    }
+  }
+
+  #modal {
+    .img {
+      width: 75%;
+    }
+    .btnBlock {
+      max-height: 60px;
+      .submitBtn {
+        .btnText {
+          font-size: 16px;
+          padding: 2% 0;
+          img {
+            position: relative;
+            bottom: 5%;
+          }
+        }
+      }
+    }
+  }
+
+  #qrCode {
+    .thanks {
+      font-size: 21px;
+    }
+  }
+}
+
+@media screen and (max-width: 1365px) and (min-width: 480px) {
+  .header {
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 39% 100%;
+        }
+      }
+    }
+  }
+  .homePage {
+    padding-top: 30%;
+  }
+
+  #modal {
+    .btnBlock {
+      .submitBtn {
+        .btnText {
+          font-size: 15px;
+          img {
+            width: 9%;
+          }
+        }
+      }
+    }
+  }
+
+  #giftDesk {
+    .submitBtn {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 1265px) and (min-width: 480px) {
+  .header {
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 42% 100%;
+        }
+      }
+    }
+  }
+
+  .homePage {
+    padding-top: 32%;
+  }
+
+  #infoPage {
+    .titleDesktop {
+      font-size: 40px;
+    }
+  }
+  .blurLayout {
+    padding-top: 27%;
+  }
+
+  #wrapNoCam {
+    p:first-child {
+      width: 22%;
+    }
+  }
+
+  #qrCode {
+    .thanks {
+      font-size: 22px;
+    }
+    .btnGroup {
+      .btnBlock {
+        .submitBtn {
+          .btnText {
+            font-size: 21px;
+          }
+        }
+      }
+      .btnBlock:first-child {
+        .submitBtn {
+          .btnText {
+            padding: 8% 0;
+          }
+        }
+      }
+    }
+  }
+
+  #modal {
+    .btnBlock {
+      padding: 0 35%;
+    }
+  }
+}
+
+@media screen and (max-width: 1154px) and (min-width: 480px) {
+  .header {
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 45% 100%;
+        }
+      }
+    }
+  }
+  .homePage {
+    padding-top: 34%;
+  }
+}
+
+@media screen and (max-width: 1130px) and (min-width: 480px) {
+  .header {
+    .logoMenu {
+      .menu {
+        ul {
+          font-size: 18px;
+        }
+      }
+    }
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 47% 100%;
+        }
+      }
+    }
+  }
+  .homePage {
+    padding-top: 34%;
+  }
+  #infoPage {
+    .titleDesktop {
+      font-size: 35px;
+    }
+    .extra {
+      font-size: 25px;
+    }
+  }
+
+  .birthdayBlock {
+    font-size: 20px;
+  }
+
+  .ant-select {
+    font-size: 15px;
+    .ant-select-arrow {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  #wrapIntro {
+    .smallTitle {
+      padding: 0 8%;
+      font-size: 30px;
+    }
+  }
+
+  #wrapSelect {
+    .submitBtn {
+      width: 65%;
+    }
+  }
+
+  .blurLayout {
+    padding-top: 29%;
+  }
+
+  #wrapNoCam {
+    p:first-child {
+      width: 25%;
+    }
+  }
+
+  #modal {
+    padding-top: 25%;
+    .btnBlock {
+      .submitBtn {
+        width: 100%;
+        .btnText {
+          padding: 3% 0;
+        }
+      }
+    }
+  }
+
+  #qrCode {
+    .thanks {
+      font-size: 21px;
+    }
+    .qr {
+      width: 50%;
+    }
+    .btnGroup {
+      .btnBlock {
+        .submitBtn {
+          .btnText {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+
+  #giftDesk {
+    .btnText {
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 480px) {
+  .header {
+    .logoMenu {
+      .menu {
+        ul {
+          font-size: 15px;
+        }
+      }
+    }
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 52% 100%;
+        }
+      }
+    }
+  }
+  .homePage {
+    padding: 0 25%;
+    padding-top: 36%;
+  }
+
+  #modal {
+    .img {
+      width: 90%;
+    }
+    .btnBlock {
+      .submitBtn {
+        .btnText {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px) and (min-width: 480px) {
+  .header {
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 55% 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 480px) {
+  .header {
+    .headerText {
+      .img {
+        .year2021 {
+          background-size: 60% 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 835px) and (min-width: 480px) {
+  .header {
+    .logoMenu {
+      .menu {
+        ul {
+          padding-right: 10%;
+        }
+      }
+    }
+    .headerText {
+      .img {
+        bottom: 5%;
+        .year2021 {
+          background-size: 62% 100%;
+        }
+      }
+    }
+  }
+  #infoPage {
+    .titleDesktop {
+      font-size: 30px;
+    }
+    .extra {
+      font-size: 20px;
+    }
+  }
+  #modal {
+    .btnBlock {
+      padding: 0 32%;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+  .birthdayBlock,
+  .ant-select {
+    font-size: 18px;
+  }
+  .ant-select {
+    .ant-select-arrow {
+      width: 15px;
+      height: 15px;
+      top: 40%;
+    }
+  }
+  #infoPage {
+    .titleDesktop {
+      font-size: 25px;
+    }
+    .extra {
+      font-size: 18px;
+    }
+    .btnBlock {
+      .submitBtn {
+        .btnText {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .header {
+    .logoMenu {
+      .logo {
+        width: 20%;
+      }
+      .menu {
+        ul {
+          padding-right: 20%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 480px) {
+  .birthdayBlock,
+  .ant-select {
+    font-size: 15px;
+  }
+  #modal {
+    .btnBlock {
+      padding: 0 30%;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 480px) {
+  #modal {
+    .btnBlock {
+      padding: 0 28%;
+    }
+  }
+}
+
+@media screen and (max-width: 610px) and (min-width: 480px) {
+  .homePage {
+    padding: 0 22%;
+    padding-top: 36%;
+  }
+  .birthdayBlock,
+  .ant-select {
+    font-size: 14px;
+  }
+  .ant-select {
+    .ant-select-arrow {
+      width: 12px;
+      height: 12px;
+      top: 40%;
+    }
+    .ant-select-selector {
+      max-height: 45px;
+      padding-top: 0 !important;
+    }
+  }
+
+  #infoPage {
+    .inputGroup {
+      .inputBirthday {
+        max-height: 45px;
+      }
+    }
+    .btnBlock {
+      max-height: 50px;
+    }
+  }
+  #modal {
+    .btnBlock {
+      padding: 0 24%;
+    }
+  }
+}
+
+@media screen and (max-width: 545px) and (min-width: 480px) {
+  .homePage {
+    padding: 0 18%;
+    padding-top: 40%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    // padding: 8%;
+    width: 100%;
+    height: 100%;
+    padding: 8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    .logoMenu {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      .logo {
+        width: 35%;
+        position: relative;
+        z-index: 3;
+      }
+      .wrapNav {
+        display: block;
+      }
+      .menuBlock {
+        position: absolute;
+        top: 0%;
+        right: 0;
+        padding-right: 8%;
+        padding-top: 10%;
+        height: 100%;
+        z-index: 5;
+      }
+      .menu {
+        display: none;
+      }
+    }
+    .headerText {
+      position: relative;
+      z-index: 3;
+      text-align: unset;
+      p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(
+          50.02deg,
+          #fdfbc0 18.45%,
+          #f1cb80 64.21%,
+          #f8d281 80.77%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: -15px;
+      }
+      .year2020 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+        background: unset;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: unset;
+      }
+      .year2021 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 39px;
+        color: #ffffff;
+        background: unset;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: unset;
+      }
+    }
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    height: 39vh;
+    .bottle {
+      height: 100%;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .homePage {
+    // background: url("/images/Budweiser_homepage_BG_mobile_test.png") no-repeat
+    //   center;
+    // background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #d61f38;
+    padding: 0% 6%;
+    padding-top: 45%;
+    position: relative;
+    > div {
+      height: 100%;
+    }
+  }
+
+  //ANTD FORM
+  .ant-form-item {
+    margin: 0 0 10px;
+    max-height: 64px !important;
+  }
+
+  .ant-select-arrow {
+    top: 53% !important;
+  }
+
+  .ant-modal {
+    padding: 0 10%;
+  }
+
+  .ant-modal-content {
+    .ant-modal-body {
+      .noti {
+        font-size: 14px;
+      }
+    }
+  }
+  .blurLayout {
+    padding: 46% 7%;
+  }
+  #infoPage {
+    .extra {
+      font-size: 16px;
+    }
+    .inputGroup {
+      max-height: 125px;
+      margin-bottom: 0;
+      .inputBirthday,
+      .selectPlace {
+        max-height: 40px;
+        margin-bottom: 0;
+      }
+      .birthdayBlock {
+        border: 1px solid #fff;
+        border-radius: 0px;
+      }
+    }
+    .btnBlock {
+      margin-top: 20px;
+    }
+  }
+  #wrapIntro {
+    margin-top: 0;
+    .smallTitle {
+      font-size: 22px;
+      line-height: unset;
+      padding: 0 10%;
+    }
+    .largeTitle {
+      max-height: 163px;
+    }
+    .btnBlock {
+      margin-top: 0;
+    }
+  }
+  #wrapSelect {
+    padding: 0;
+    .btnBlock {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 20%;
+      bottom: -25%;
+      margin-top: 0;
+      text-align: unset;
+    }
+  }
+
+  //Slick
+  .slick-vertical {
+    .slick-slide {
+      height: 100%;
+      max-height: 45px;
+    }
+    .slick-active + .slick-active {
+      // max-height: 60px;
+    }
+    .slick-active {
+      max-height: 62px;
+    }
+  }
+
+  .slick-list {
+    height: 75% !important;
+    // padding-bottom: 45px !important;
+    padding: 0 !important;
+    padding-top: 25% !important;
+
+    .slick-track {
+      // height: 100% !important;
+      // top: 62%;
+    }
+    .slick-slide {
+      // height: 100% !important;
+
+      > div {
+        height: 100%;
+        > div {
+          height: 100%;
+          text-align: center;
+          p {
+            height: 100%;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ab8049;
+            display: inline-block;
+            // align-items: center;
+            // justify-content: center;
+            margin: 2px 0;
+          }
+        }
+      }
+    }
+    .slick-active {
+      width: 100%;
+
+      > div {
+        height: 100%;
+        > div {
+          height: 100%;
+          p {
+            height: 100%;
+            display: inline-block;
+            // align-items: center;
+            // justify-content: center;
+            font-size: 23px;
+          }
+        }
+      }
+    }
+
+    .slick-active + .slick-active {
+      p {
+        height: 100%;
+        font-size: 25px;
+        // color: #000;
+        background: -webkit-linear-gradient(
+          25.02deg,
+          #fdfbc0 18.45%,
+          #f1cb80 64.21%,
+          #f8d281 80.77%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .slick-active + .slick-active + .slick-active {
+      text-align: center;
+      p {
+        background: unset !important;
+        font-size: 16px;
+        color: #ab8049 !important;
+        -webkit-text-fill-color: unset;
+        text-align: center;
+        display: inline-block;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+      }
+    }
+  }
+
+  #wrapNoCam {
+    margin-top: 6%;
+    height: 100%;
+    .blurText {
+      max-width: 230px;
+      margin-bottom: 20%;
+    }
+    .btnBlock {
+      padding: 0;
+    }
+  }
+
+  #modal {
+    padding-top: 60%;
+    height: 103.3%;
+    width: 105.5%;
+    .img {
+      width: unset;
+      margin: 5%;
+      img {
+        width: unset;
+      }
+    }
+    .btnBlock {
+      width: unset;
+      margin: 0;
+      padding: 0 15%;
+      .btnText {
+        padding: 5% 0%;
+        font-size: 14px;
+        img {
+          padding-bottom: 3%;
+        }
+      }
+    }
+  }
+
+  #qrCode {
+    .thanks {
+      font-size: 17px;
+      padding: 0;
+    }
+    .btnGroup {
+      display: unset;
+      height: unset;
+      .btnBlock:last-child {
+        .submitBtn {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  #signIn {
+    .ant-input,
+    .ant-input-password {
+      height: 100%;
+      max-height: 40px;
+      color: #fff;
+      background-color: #c3002a;
+      &:focus {
+        border-color: #fff;
+      }
+      &:hover {
+        border-color: #fff;
+      }
+    }
+    .ant-form-item-has-error {
+      .ant-input,
+      .ant-input-password {
+        background-color: #c3002a;
+        border-color: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #menuToggle {
+    height: 100%;
+    span {
+      width: 32px;
+      height: 4px;
+    }
+    input:checked ~ span {
+      transform: rotate(45deg) translate(2px, 0px);
+    }
+    input:checked ~ span:nth-last-child(2) {
+      transform: rotate(-45deg) translate(3px, 0px);
+    }
+  }
+  #menu {
+    li {
+      font-size: 18px;
+    }
+  }
+  #infoPage {
+    .title {
+      font-size: 20px;
+    }
+    .extra {
+      font-size: 14px;
+    }
+    .inputGroup {
+      .inputBirthday,
+      .ant-select {
+        max-height: 30px;
+        .birthdayBlock {
+          font-size: 16px;
+        }
+      }
+      .ant-select {
+        .ant-select-selector {
+          padding-top: 0 !important;
+        }
+        .ant-select-arrow {
+          margin-right: 0px;
+        }
+      }
+    }
+    .btnBlock {
+      max-height: 30px;
+      margin-top: 0;
+    }
+  }
+
+  .submitBtn {
+    .btnText {
+      font-size: 14px;
+    }
+  }
+
+  .ant-form-item {
+    max-height: 57px !important;
+  }
+
+  #wrapIntro {
+    .smallTitle {
+      font-size: 19px;
+    }
+    .largeTitle {
+      margin-bottom: 30px;
+    }
+    .btnBlock {
+      max-height: 30px;
+    }
+  }
+
+  .slick-list {
+    padding-top: 20% !important;
+    .slick-slide {
+      > div {
+        > div {
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .slick-active {
+      > div {
+        > div {
+          p {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+
+  #wrapSelect {
+    .btnBlock {
+      max-height: 30px;
+    }
+  }
+
+  #wrapNoCam {
+    .btnBlock {
+      max-height: 30px;
+    }
+  }
+  #modal {
+    .btnBlock {
+      max-height: 30px;
+      padding: 0 12%;
+      .btnText {
+        padding: 0;
+      }
+    }
+  }
+
+  #qrCode {
+    .thanks {
+      font-size: 15px;
+    }
+    .qr {
+      max-width: 110px;
+    }
+    .btnBlock {
+      max-height: 30px;
+    }
+  }
+
+  #giftPlaceMobile {
+    .title {
+      font-size: 25px;
+    }
+    .ant-select {
+      .ant-select-selector {
+        max-height: 30px;
+        padding-top: 0 !important;
+      }
+    }
+    .btnBlock {
+      max-height: 30px;
+    }
+    .placeInfo {
+      .city {
+        font-size: 17px;
+      }
+      .place {
+        .placeName {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
